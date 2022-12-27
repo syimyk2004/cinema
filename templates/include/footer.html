@@ -3,7 +3,7 @@
                 <div class="row footer-top">
                     <div class="col-lg-4 footer-grid_section_w3layouts">
                         <h2 class="logo-2 mb-lg-4 mb-3">
-                            <a href="index.html" class="editContent">
+                            <a href="{% url 'movie_list' %}" class="editContent">
                                 <span class="fa" aria-hidden="true" >
                                     Django School
                                 </span>
@@ -43,7 +43,7 @@
                             <h3 class="footer-title text-uppercase editContent mb-lg-4 mb-3" >Newsletter</h3>
 
                             <p class="editContent" >By subscribing to our mailing list you will always get latest news and updates from us.</p>
-                            <form action="#" method="post" class="w3layouts-newsletter">
+                            <form action="#" method="get" class="w3layouts-newsletter">
                                 <input type="email" name="Email" class="editContent" placeholder="Enter your email..." required="" >
                                 <button class="btn1 btn" ><span class="fa fa-paper-plane-o" aria-hidden="true" ></span></button>
 
@@ -54,13 +54,13 @@
                                 <h3 class="footer-title text-uppercase editContent mb-lg-4 mb-3" >Разделы</h3>
                                 <ul class="list-unstyled w3layouts-icons">
                                     <li>
-                                        <a href="index.html" class="editContent" >Главная</a>
+                                        <a href="{% url 'movie_list' %}" class="editContent" >Главная</a>
                                     </li>
                                     <li>
-                                        <a href="about.html" class="editContent" >Категории</a>
+                                        <a href="#" class="editContent" >Категории</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html" class="editContent" >Контакты</a>
+                                        <a href="{% url 'register' %}" class="editContent" >Контакты</a>
                                     </li>
                                 </ul>
                             </div>
