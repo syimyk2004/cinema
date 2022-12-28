@@ -13,4 +13,15 @@ source evn/bin/activate
 pip install django pillow python-decouple psycopg2
 ```
 
-создать .env файл 
+создать .env файл связать с БД
+```
+SECRET_KEY=
+DEBUG=
+ALLOWED_HOSTS =
+ENGINE =
+NAME=
+USERNAME=
+PASSWORD =
+HOST =
+PORT=
+```
