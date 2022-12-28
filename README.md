@@ -8,7 +8,9 @@ python3 -m venv env
 source evn/bin/activate
 ```
 
-скачать req.txt
+скачать пакеты
 ```
-pip install -r req.txt
+pip install django pillow python-decouple psycopg2
 ```
+
+создать .env файл 
